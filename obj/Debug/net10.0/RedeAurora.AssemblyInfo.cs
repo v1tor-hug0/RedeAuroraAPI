@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RedeAurora")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f52a93bd847f4f776fdc177b908334b5ca1b83c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("RedeAurora")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RedeAurora")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

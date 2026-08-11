@@ -2,7 +2,7 @@
 
 namespace RedeAurora.Interfaces
 {
-    public interface ISertorRepository
+    public interface ISetorRepository
     {
         List<Setor> Listar();
         Setor ListarPorId(int id);

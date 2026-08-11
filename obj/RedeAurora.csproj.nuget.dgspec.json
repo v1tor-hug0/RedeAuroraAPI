@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\43159446883\\source\\repos\\RedeAurora\\RedeAurora.csproj": {}
+    "C:\\Users\\43159446883\\Desktop\\RedeAurora\\RedeAurora.csproj": {}
   },
   "projects": {
-    "C:\\Users\\43159446883\\source\\repos\\RedeAurora\\RedeAurora.csproj": {
+    "C:\\Users\\43159446883\\Desktop\\RedeAurora\\RedeAurora.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\43159446883\\source\\repos\\RedeAurora\\RedeAurora.csproj",
+        "projectUniqueName": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\RedeAurora.csproj",
         "projectName": "RedeAurora",
-        "projectPath": "C:\\Users\\43159446883\\source\\repos\\RedeAurora\\RedeAurora.csproj",
+        "projectPath": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\RedeAurora.csproj",
         "packagesPath": "C:\\Users\\43159446883\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\43159446883\\source\\repos\\RedeAurora\\obj\\",
+        "outputPath": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -52,6 +52,14 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
+            "DotNetEnv": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[10.0.10, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[10.0.10, )"
@@ -71,6 +79,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[10.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[10.0.10, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[10.2.3, )"
             }
           },
           "imports": [

@@ -4,12 +4,12 @@ using RedeAurora.Interfaces;
 
 namespace RedeAurora.Repositories
 {
-    public class SertorRepository : ISertorRepository
+    public class SetorRepository : ISetorRepository
     {
 
         private readonly RedeAuroraContext _context;
 
-        public SertorRepository(RedeAuroraContext context)
+        public SetorRepository(RedeAuroraContext context)
         {
             _context = context;
         }

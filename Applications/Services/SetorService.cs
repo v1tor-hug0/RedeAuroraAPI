@@ -8,9 +8,9 @@ namespace RedeAurora.Applications.Services
 {
     public class SetorService 
     {
-        private readonly ISertorRepository _repository;
+        private readonly ISetorRepository _repository;
 
-        public SetorService(ISertorRepository repository)
+        public SetorService(ISetorRepository repository)
         {
             _repository = repository;
         }
@@ -22,7 +22,8 @@ namespace RedeAurora.Applications.Services
             List<ListarSetorDto> setorDto = setor.Select(s => new ListarSetorDto
             {
                 SetorId = s.id_setor,
-                nome = s.nome
+                nome = s.nome,
+                id_unidade = s.id_unidade
             }).ToList();
 
             return setorDto;
@@ -37,7 +38,8 @@ namespace RedeAurora.Applications.Services
             return new ListarSetorDto
             {
                 SetorId = setor.id_setor,
-                nome = setor.nome
+                nome = setor.nome,
+                id_unidade = setor.id_unidade
             };
         }
 
@@ -51,10 +53,13 @@ namespace RedeAurora.Applications.Services
 
             Setor setor = new Setor
             {
-                nome = setorsDto.nome
+                nome = setorsDto.nome,
+                id_unidade = setorsDto.id_unidade
             };
 
             _repository.Adicionar(setor);
+
+
         }
 
         public void Atualizar(int id, CriarSetorDto setorDto)
@@ -66,6 +71,7 @@ namespace RedeAurora.Applications.Services
             if (setor == null) throw new DomainException("Setor não encontrado");
 
             setor.nome = setorDto.nome;
+            setor.id_unidade = setorDto.id_unidade;
 
             _repository.Atualizar(setor);
         }
