@@ -1,0 +1,72 @@
+﻿using RedeAurora.Domains;
+using RedeAurora.DTOs.ItemDto;
+using RedeAurora.Interfaces;
+
+namespace RedeAurora.Applications.Services
+{
+    public class ItemService
+    {
+        private readonly IItemRepository _repository;
+
+        public ItemService(IItemRepository repository)
+        {
+            _repository = repository;
+        }
+
+        private static ListarItemDto lerDto (ItemInventario item)
+        {
+            return new ListarItemDto
+            {
+                id_item = item.id_item,
+                codigo_patrimonio = item.codigo_patrimonio,
+                descricao = item.descricao,
+                id_setor = item.id_setor,
+                condicao = item.condicao,
+                data = item.data_hora,
+                id_usuario = item.id_usuario ?? Guid.Empty
+            };
+        }
+
+        public List<ListarItemDto> Listar()
+        {
+            List<ItemInventario> itens = _repository.Listar();
+            return itens.Select(lerDto).ToList();
+        }
+
+        public ListarItemDto ListarPorID(int id)
+        {
+            ItemInventario? item = _repository.ListarPorID(id);
+            if (item == null)
+            {
+                throw new Exception("Item não encontrado.");
+            }
+            return lerDto(item);
+        }
+
+        public ListarItemDto Adicionar(CriarItemDto itemDto)
+        {
+            ItemInventario item = new ItemInventario
+            {
+                codigo_patrimonio = itemDto.codigo_patrimonio,
+                descricao = itemDto.descricao,
+                id_setor = itemDto.id_setor,
+                condicao = itemDto.condicao,
+                data_hora = itemDto.date ?? DateTime.Now,
+                id_usuario = itemDto.id_usuario
+            };
+            _repository.Adicionar(item);
+            return lerDto(item);
+        }
+
+        public void Deletar(int id)
+        {
+            ItemInventario? item = _repository.ListarPorID(id);
+            if (item == null)
+            {
+                throw new Exception("Item não encontrado.");
+            }
+            _repository.Deletar(item);
+        }
+
+    }
+}

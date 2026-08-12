@@ -1,18 +1,20 @@
+using DotNetEnv;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi;
+using Microsoft.OpenApi.Models;
+using RedeAurora.Applications.Autenticacao;
 using RedeAurora.Applications.Services;
 using RedeAurora.Contexts;
-using System.Text;
 using RedeAurora.Interfaces;
 using RedeAurora.Repositories;
-using DotNetEnv;
+using System.Text;
 
 
 var builder = WebApplication.CreateBuilder(args);
 
-Env.Load();
+//Env.Load();
 
 // pegando a connection string
 string connectionString = Environment.GetEnvironmentVariable("CONNECTION_STRING");
@@ -23,35 +25,38 @@ builder.Services.AddDbContext<RedeAuroraContext>(options => options.UseSqlServer
 // Add services to the container.
 builder.Services.AddControllers();
 
+// allow access to HttpContext in services
+builder.Services.AddHttpContextAccessor();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-//builder.Services.AddSwaggerGen(c =>
-//{
-//    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
-//    {
-//        Name = "Authorization",
-//        Type = SecuritySchemeType.Http,
-//        Scheme = "bearer",
-//        BearerFormat = "JWT",
-//        In = ParameterLocation.Header,
-//        Description = "Value: Bearer TokenJWT"
-//    });
-//    c.AddSecurityRequirement(new OpenApiSecurityRequirement
-//    {
-//        {
-//            new OpenApiSecurityScheme
-//            {
-//                Reference = new OpenApiReference
-//                {
-//                    Type = ReferenceType.SecurityScheme,
-//                    Id = "Bearer"
-//                }
-//            },
-//            new string[] {}
-//        }
-//    });
-//});
+//builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        Name = "Authorization",
+        Type = SecuritySchemeType.Http,
+        Scheme = "bearer",
+        BearerFormat = "JWT",
+        In = ParameterLocation.Header,
+        Description = "Value: Bearer TokenJWT"
+    });
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            new string[] {}
+        }
+    });
+});
 
 
 builder.Services.AddScoped<ISetorRepository, SetorRepository>();
@@ -60,40 +65,47 @@ builder.Services.AddScoped<SetorService>();
 builder.Services.AddScoped<IUnidadeRepository, UnidadeRepository>();
 builder.Services.AddScoped<UnidadeService>();
 
-//// JWT
-//builder.Services.AddScoped<GeradorTokenJwt>();
-//builder.Services.AddScoped<AutenticacaoService>();
+// Item repository and service
+builder.Services.AddScoped<IItemRepository, ItemRepository>();
+builder.Services.AddScoped<ItemService>();
+
+builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+builder.Services.AddScoped<UsuarioService>();
+
+// JWT
+builder.Services.AddScoped<GeradorTokenJwt>();
+builder.Services.AddScoped<AutenticacaoService>();
 
 
-//builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 
-//    .AddJwtBearer(options =>
-//    {
-//        var chave = builder.Configuration["Jwt:Key"]!;
+    .AddJwtBearer(options =>
+    {
+        var chave = builder.Configuration["Jwt:Key"]!;
 
-//        var issuer = builder.Configuration["Jwt:Issuer"]!;
+        var issuer = builder.Configuration["Jwt:Issuer"]!;
 
-//        var audience = builder.Configuration["Jwt:Audience"]!;
+        var audience = builder.Configuration["Jwt:Audience"]!;
 
-//        options.TokenValidationParameters = new TokenValidationParameters
-//        {
-//            ValidateIssuer = true,
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
 
-//            ValidateAudience = true,
+            ValidateAudience = true,
 
-//            ValidateLifetime = true,
+            ValidateLifetime = true,
 
-//            ValidateIssuerSigningKey = true,
+            ValidateIssuerSigningKey = true,
 
-//            ValidIssuer = issuer,
+            ValidIssuer = issuer,
 
-//            ValidAudience = audience,
+            ValidAudience = audience,
 
-//            IssuerSigningKey = new SymmetricSecurityKey(
-//                Encoding.UTF8.GetBytes(chave)
-//            )
-//        };
-//    });
+            IssuerSigningKey = new SymmetricSecurityKey(
+                Encoding.UTF8.GetBytes(chave)
+            )
+        };
+    });
 
 builder.Services.AddCors(options =>
 {

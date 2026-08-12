@@ -19,6 +19,8 @@ public partial class ItemInventario
 
     public Guid? id_usuario { get; set; }
 
+    public string? nome { get; set; }
+
     public virtual Setor id_setorNavigation { get; set; } = null!;
 
     public virtual Usuario? id_usuarioNavigation { get; set; }

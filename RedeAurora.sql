@@ -46,7 +46,11 @@ CREATE TABLE ItemInventario (
         FOREIGN KEY (id_usuario)
         REFERENCES Usuario(id_usuario)
 );
-go  
+go
+
+ALTER TABLE ItemInventario 
+ADD nome VARCHAR(50);
+GO
 
 INSERT INTO Unidade(nome) VALUES
 ('Escritorio'),

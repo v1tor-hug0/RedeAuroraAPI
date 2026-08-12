@@ -52,7 +52,6 @@ namespace RedeAurora.Applications.Autenticacao
             var claims = new List<Claim>
             {
                 new Claim(ClaimTypes.NameIdentifier, usuario.id_usuario.ToString()),
-
                 new Claim(ClaimTypes.Name, usuario.nome),
 
             };

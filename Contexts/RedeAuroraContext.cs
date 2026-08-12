@@ -46,6 +46,9 @@ public partial class RedeAuroraContext : DbContext
             entity.Property(e => e.descricao)
                 .HasMaxLength(255)
                 .IsUnicode(false);
+            entity.Property(e => e.nome)
+                .HasMaxLength(50)
+                .IsUnicode(false);
 
             entity.HasOne(d => d.id_setorNavigation).WithMany(p => p.ItemInventario)
                 .HasForeignKey(d => d.id_setor)

@@ -33,13 +33,13 @@ namespace RedeAurora.Applications.Services
 
             if (usuario == null)
             {
-                throw new Exception("Email ou senha inválidos.");
+                throw new Exception("Nome ou senha inválidos.");
             }
 
             //Comparar a senha digitada com a senha armazenada (hash)
             if (!VerificarSenha(loginDto.senha, usuario.senha))
             {
-                throw new Exception("Email ou senha inválidos.");
+                throw new Exception("Nome ou senha inválidos.");
             }
 
             //gerando o token 

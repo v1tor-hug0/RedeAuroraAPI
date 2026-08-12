@@ -32,7 +32,7 @@ namespace RedeAurora.Repositories
             _context.SaveChanges();
         }
 
-        public void Deletar(int id)
+        public void Deletar(Guid id)
         {
             var usuario = _context.Usuario.Find(id);
             if(usuario == null) return;
@@ -47,7 +47,7 @@ namespace RedeAurora.Repositories
             return _context.Usuario.OrderBy(u => u.id_usuario).ToList();
         }
 
-        public Usuario ListarPorID(int id)
+        public Usuario ListarPorID(Guid id)
         {
             return _context.Usuario.Find(id);
         }
