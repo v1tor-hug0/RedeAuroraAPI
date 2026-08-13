@@ -6,7 +6,8 @@ namespace RedeAurora.Interfaces
     {
         List<Usuario> Listar();
         Usuario ListarPorID(Guid id);
-        Usuario ListarPorNome(string nome);
+        Usuario ListarPorEmail(string email);
+        bool EmailExiste(string email);
         void Adicionar(Usuario usuario);
         void Atualizar(Usuario usuario);
         void Deletar(Guid id);

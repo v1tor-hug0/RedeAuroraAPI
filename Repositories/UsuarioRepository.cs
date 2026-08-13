@@ -1,4 +1,5 @@
-﻿using RedeAurora.Contexts;
+﻿using System.Linq;
+using RedeAurora.Contexts;
 using RedeAurora.Domains;
 using RedeAurora.Interfaces;
 
@@ -28,6 +29,7 @@ namespace RedeAurora.Repositories
             if(usuarioExistente == null) return;
 
             usuarioExistente.nome = usuario.nome;
+            usuarioExistente.email = usuario.email;
             usuarioExistente.senha = usuario.senha;
             _context.SaveChanges();
         }
@@ -41,10 +43,19 @@ namespace RedeAurora.Repositories
             _context.SaveChanges();
         }
 
+        public bool EmailExiste(string email)
+        {
+            return _context.Usuario.Any(u => u.email == email);
+        }
 
         public List<Usuario> Listar()
         {
             return _context.Usuario.OrderBy(u => u.id_usuario).ToList();
+        }
+
+        public Usuario ListarPorEmail(string email)
+        {
+            return _context.Usuario.FirstOrDefault(u => u.email == email);
         }
 
         public Usuario ListarPorID(Guid id)
@@ -52,9 +63,11 @@ namespace RedeAurora.Repositories
             return _context.Usuario.Find(id);
         }
 
-        public Usuario ListarPorNome(string nome)
+        public Usuario ListarPorNome(string email)
         {
-            return _context.Usuario.FirstOrDefault(u => u.nome == nome);
+            return _context.Usuario.FirstOrDefault(u => u.email == email);
         }
+
     }
 }
+    

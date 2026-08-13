@@ -380,14 +380,14 @@
   },
   {
     "ContainingType": "RedeAurora.Controllers.UsuarioController",
-    "Method": "ListarPorNome",
-    "RelativePath": "api/Usuario/nome/{nome}",
+    "Method": "ListarPorEmail",
+    "RelativePath": "api/Usuario/email/{email}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "nome",
+        "Name": "email",
         "Type": "System.String",
         "IsRequired": true
       }

@@ -14,7 +14,7 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-//Env.Load();
+Env.Load();
 
 // pegando a connection string
 string connectionString = Environment.GetEnvironmentVariable("CONNECTION_STRING");

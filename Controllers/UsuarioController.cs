@@ -47,12 +47,12 @@ namespace RedeAurora.Controllers
             }
         }
 
-        [HttpGet("nome/{nome}")]
-        public IActionResult ListarPorNome(string nome)
+        [HttpGet("email/{email}")]
+        public IActionResult ListarPorEmail(string email)
         {
             try
             {
-                ListarUsuarioDto usuario = _service.ListarPorNome(nome);
+                ListarUsuarioDto usuario = _service.ListarPorEmail(email);
                 return Ok(usuario);
             }
             catch (Exception ex)

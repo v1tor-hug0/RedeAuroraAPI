@@ -29,17 +29,17 @@ namespace RedeAurora.Applications.Services
 
         public TokenDto Login(LoginDto loginDto)
         {
-            Usuario usuario = _repository.ListarPorNome(loginDto.nome);
+            Usuario usuario = _repository.ListarPorEmail(loginDto.email);
 
             if (usuario == null)
             {
-                throw new Exception("Nome ou senha inválidos.");
+                throw new Exception("Email ou senha inválidos.");
             }
 
             //Comparar a senha digitada com a senha armazenada (hash)
             if (!VerificarSenha(loginDto.senha, usuario.senha))
             {
-                throw new Exception("Nome ou senha inválidos.");
+                throw new Exception("Email ou senha inválidos.");
             }
 
             //gerando o token 

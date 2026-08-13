@@ -21,7 +21,8 @@ namespace RedeAurora.Applications.Services
             return new ListarUsuarioDto
             {
                 id_usuario = usuario.id_usuario,
-                nome = usuario.nome
+                nome = usuario.nome,
+                email = usuario.email,
             };
         }
 
@@ -42,9 +43,9 @@ namespace RedeAurora.Applications.Services
             return lerDto(usuario);
         }
 
-        public ListarUsuarioDto ListarPorNome(string nome)
+        public ListarUsuarioDto ListarPorEmail(string email)
         {
-            Usuario? usuario = _repository.ListarPorNome(nome);
+            Usuario? usuario = _repository.ListarPorEmail(email);
             if (usuario == null)
             {
                 throw new Exception("Usuário não encontrado.");
@@ -66,10 +67,18 @@ namespace RedeAurora.Applications.Services
         public ListarUsuarioDto Adicionar(CriarUsuarioDto usuarioDto)
         {
 
+            var existe = _repository.EmailExiste(usuarioDto.email);
+
+            if(existe)
+            {
+                throw new DomainException("Email já cadastrado.");
+            }
+
             Usuario usuario = new Usuario
             {
                 id_usuario = Guid.NewGuid(),
                 nome = usuarioDto.nome,
+                email = usuarioDto.email,
                 senha = HashSenha(usuarioDto.senha)
             };
             _repository.Adicionar(usuario);

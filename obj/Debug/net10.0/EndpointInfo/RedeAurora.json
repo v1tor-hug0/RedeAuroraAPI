@@ -641,14 +641,14 @@
         }
       }
     },
-    "/api/Usuario/nome/{nome}": {
+    "/api/Usuario/email/{email}": {
       "get": {
         "tags": [
           "Usuario"
         ],
         "parameters": [
           {
-            "name": "nome",
+            "name": "email",
             "in": "path",
             "required": true,
             "schema": {
@@ -723,6 +723,10 @@
             "type": "string",
             "nullable": true
           },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
           "senha": {
             "type": "string",
             "nullable": true
@@ -772,6 +776,10 @@
           "nome": {
             "type": "string",
             "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -779,7 +787,7 @@
       "LoginDto": {
         "type": "object",
         "properties": {
-          "nome": {
+          "email": {
             "type": "string",
             "nullable": true
           },

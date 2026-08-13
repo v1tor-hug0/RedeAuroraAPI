@@ -11,5 +11,7 @@ public partial class Usuario
 
     public byte[] senha { get; set; } = null!;
 
+    public string? email { get; set; }
+
     public virtual ICollection<ItemInventario> ItemInventario { get; set; } = new List<ItemInventario>();
 }
