@@ -27,6 +27,10 @@ CREATE TABLE Usuario (
 )
 GO
 
+ALTER TABLE Usuario
+ADD email varchar(50);
+GO
+
 CREATE TABLE ItemInventario (
     id_item INT IDENTITY PRIMARY KEY,
     codigo_patrimonio VARCHAR(50) NOT NULL UNIQUE,

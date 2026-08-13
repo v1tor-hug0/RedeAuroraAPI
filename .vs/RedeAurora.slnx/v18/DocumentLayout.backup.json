@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|c:\\users\\43159446883\\desktop\\redeaurora\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|solutionrelative:controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|c:\\users\\43159446883\\desktop\\redeaurora\\dtos\\usuariodto\\listarusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|solutionrelative:dtos\\usuariodto\\listarusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|c:\\users\\43159446883\\desktop\\redeaurora\\applications\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|solutionrelative:applications\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|c:\\users\\43159446883\\desktop\\redeaurora\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|solutionrelative:controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|c:\\users\\43159446883\\desktop\\redeaurora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,21 +82,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AutenticacaoController.cs",
-              "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Controllers\\AutenticacaoController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AutenticacaoController.cs",
-              "ToolTip": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Controllers\\AutenticacaoController.cs",
-              "RelativeToolTip": "Controllers\\AutenticacaoController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAuwAoAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-12T13:17:38.825Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 6,
@@ -138,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ListarUsuarioDto.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\DTOs\\UsuarioDto\\ListarUsuarioDto.cs",
               "RelativeDocumentMoniker": "DTOs\\UsuarioDto\\ListarUsuarioDto.cs",
@@ -164,12 +151,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UsuarioService.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Applications\\Services\\UsuarioService.cs",
               "RelativeDocumentMoniker": "Applications\\Services\\UsuarioService.cs",
-              "ToolTip": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Applications\\Services\\UsuarioService.cs*",
-              "RelativeToolTip": "Applications\\Services\\UsuarioService.cs*",
+              "ToolTip": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Applications\\Services\\UsuarioService.cs",
+              "RelativeToolTip": "Applications\\Services\\UsuarioService.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAIwBgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-13T11:32:52.449Z",
@@ -177,15 +164,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
               "ToolTip": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-12T13:19:35.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AutenticacaoController.cs",
+              "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Controllers\\AutenticacaoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AutenticacaoController.cs",
+              "ToolTip": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Controllers\\AutenticacaoController.cs",
+              "RelativeToolTip": "Controllers\\AutenticacaoController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T13:17:38.825Z",
               "EditorCaption": ""
             },
             {
