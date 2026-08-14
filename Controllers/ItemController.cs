@@ -8,7 +8,7 @@ namespace RedeAurora.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    //[Authorize]
     public class ItemController : ControllerBase
     {
         private readonly ItemService _service;
@@ -44,6 +44,21 @@ namespace RedeAurora.Controllers
             catch (Exception ex)
             {
                 return NotFound(ex.Message);
+            }
+        }
+
+        [HttpGet("quantidade-por-unidade")]
+        public ActionResult<QTDItensPorUnidadeDto> QuantidadePorUnidade()
+        {
+            try
+            {
+                var resultado = _service.QuantidadePorUnidade();
+
+                return Ok(resultado);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
             }
         }
 

@@ -74,6 +74,26 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "RedeAurora.Controllers.ItemController",
+    "Method": "QuantidadePorUnidade",
+    "RelativePath": "api/Item/quantidade-por-unidade",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "RedeAurora.DTOs.ItemDto.QTDItensPorUnidadeDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "RedeAurora.Controllers.SetorController",
     "Method": "Listar",
     "RelativePath": "api/Setor",

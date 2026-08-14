@@ -89,5 +89,11 @@ namespace RedeAurora.Applications.Services
             _repository.Deletar(item);
         }
 
+        public List<QTDItensPorUnidadeDto> QuantidadePorUnidade()
+        {
+            return _repository.QuantidadePorUnidade();
+        }
+
+
     }
 }
