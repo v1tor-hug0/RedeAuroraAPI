@@ -95,6 +95,7 @@ namespace RedeAurora.Applications.Services
             }
 
             usuarioExistente.nome = usuarioDto.nome;
+            usuarioExistente.email = usuarioDto.email;
             usuarioExistente.senha = HashSenha(usuarioDto.senha);
 
             _repository.Atualizar(usuarioExistente);
