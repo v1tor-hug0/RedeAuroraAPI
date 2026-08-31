@@ -4,6 +4,7 @@ using RedeAurora.Interfaces;
 using RedeAurora.Applications.Services;
 using RedeAurora.Applications.Autenticacao;
 using RedeAurora.DTOs.AutenticacaoDto;
+using RedeAurora.Exceptions;
 
 namespace RedeAurora.Applications.Services
 {
@@ -33,13 +34,13 @@ namespace RedeAurora.Applications.Services
 
             if (usuario == null)
             {
-                throw new Exception("Email ou senha inválidos.");
+                throw new DomainException("Email ou senha inválidos.");
             }
 
             //Comparar a senha digitada com a senha armazenada (hash)
             if (!VerificarSenha(loginDto.senha, usuario.senha))
             {
-                throw new Exception("Email ou senha inválidos.");
+                throw new DomainException("Email ou senha inválidos.");
             }
 
             //gerando o token 
