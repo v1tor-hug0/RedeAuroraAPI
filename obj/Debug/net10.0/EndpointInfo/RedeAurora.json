@@ -120,10 +120,21 @@
         }
       }
     },
-    "/api/Item/quantidade-por-unidade": {
+    "/api/Item/Quantidade-por-Setor{id}": {
       "get": {
         "tags": [
           "Item"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
         ],
         "responses": {
           "200": {
@@ -149,10 +160,21 @@
         }
       }
     },
-    "/api/Item/Itens-por-unidade": {
+    "/api/Item/Itens-por-setor/{id}": {
       "get": {
         "tags": [
           "Item"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
         ],
         "responses": {
           "200": {

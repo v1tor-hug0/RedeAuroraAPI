@@ -89,14 +89,14 @@ namespace RedeAurora.Applications.Services
             _repository.Deletar(item);
         }
 
-        public List<QTDItensPorSetorDto> QuantidadePorUnidade()
+        public List<QTDItensPorSetorDto> QuantidadePorUnidade(int id)
         {
-            return _repository.QuantidadePorUnidade();
+            return _repository.QuantidadePorUnidade(id);
         }
 
-        public List<ItensPorSetorDto> ItensPorSetor()
+        public List<ItensPorSetorDto> ItensPorSetor(int id)
         {
-            return _repository.ItensPorSetor();
+            return _repository.ItensPorSetor(id);
         }
 
 

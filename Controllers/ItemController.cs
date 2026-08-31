@@ -47,12 +47,12 @@ namespace RedeAurora.Controllers
             }
         }
 
-        [HttpGet("quantidade-por-unidade")]
-        public ActionResult<QTDItensPorSetorDto> QuantidadePorUnidade()
+        [HttpGet("Quantidade-por-Setor{id}")]
+        public ActionResult<QTDItensPorSetorDto> QuantidadePorUnidade(int id)
         {
             try
             {
-                var resultado = _service.QuantidadePorUnidade();
+                var resultado = _service.QuantidadePorUnidade(id);
 
                 return Ok(resultado);
             }
@@ -62,12 +62,12 @@ namespace RedeAurora.Controllers
             }
         }
 
-        [HttpGet("Itens-por-unidade")]
-        public ActionResult<ItensPorSetorDto> ItensPorUnidade()
+        [HttpGet("Itens-por-setor/{id}")]
+        public ActionResult<ItensPorSetorDto> itensPorSetor(int id)
         {
             try
             {
-                var resultado = _service.ItensPorSetor();
+                var resultado = _service.ItensPorSetor(id);
                 return Ok(resultado);
             }
             catch (Exception ex)

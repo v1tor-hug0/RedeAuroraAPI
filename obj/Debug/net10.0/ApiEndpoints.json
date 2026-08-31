@@ -75,12 +75,18 @@
   },
   {
     "ContainingType": "RedeAurora.Controllers.ItemController",
-    "Method": "ItensPorUnidade",
-    "RelativePath": "api/Item/Itens-por-unidade",
+    "Method": "itensPorSetor",
+    "RelativePath": "api/Item/Itens-por-setor/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": [
       {
         "Type": "RedeAurora.DTOs.ItemDto.ItensPorSetorDto",
@@ -96,11 +102,17 @@
   {
     "ContainingType": "RedeAurora.Controllers.ItemController",
     "Method": "QuantidadePorUnidade",
-    "RelativePath": "api/Item/quantidade-por-unidade",
+    "RelativePath": "api/Item/Quantidade-por-Setor{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": [
       {
         "Type": "RedeAurora.DTOs.ItemDto.QTDItensPorSetorDto",
