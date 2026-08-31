@@ -1,5 +1,6 @@
 ﻿using RedeAurora.Contexts;
 using RedeAurora.Domains;
+using RedeAurora.DTOs.ItemDto;
 using RedeAurora.Interfaces;
 
 namespace RedeAurora.Repositories

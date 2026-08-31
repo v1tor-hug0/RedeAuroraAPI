@@ -36,14 +36,28 @@ namespace RedeAurora.Repositories
             return _context.ItemInventario.Find(id);
         }
 
-        public List<QTDItensPorUnidadeDto> QuantidadePorUnidade()
+        public List<QTDItensPorSetorDto> QuantidadePorUnidade()
         {
-            return _context.Unidade.Select(unidade => new QTDItensPorUnidadeDto
+            return _context.Setor.Select(setor => new QTDItensPorSetorDto
                 {
-                    id_unidade = unidade.id_unidade,
-                    nome_unidade = unidade.nome,
-                    quantidade_itens = unidade.Setor.SelectMany(setor => setor.ItemInventario).Count(),
+                    id_setor = setor.id_setor,
+                    nome_setor = setor.nome,
+                    quantidade_itens = setor.ItemInventario.Count(),
                 }).ToList();
         }
+
+        public List<ItensPorSetorDto> ItensPorSetor()
+        {
+            return _context.Setor
+                .SelectMany(setor => setor.ItemInventario.Select(item => new ItensPorSetorDto
+                {
+                    id_setor = setor.id_setor,
+                    nome_setor = setor.nome,
+                    id_item = item.id_item,
+                    nome_item = item.nome,
+                    codigo_patrimonio = item.codigo_patrimonio,
+                })).ToList();
+        }
+
     }
 }

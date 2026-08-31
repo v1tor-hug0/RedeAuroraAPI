@@ -131,17 +131,46 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/QTDItensPorUnidadeDto"
+                  "$ref": "#/components/schemas/QTDItensPorSetorDto"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/QTDItensPorUnidadeDto"
+                  "$ref": "#/components/schemas/QTDItensPorSetorDto"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/QTDItensPorUnidadeDto"
+                  "$ref": "#/components/schemas/QTDItensPorSetorDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Item/Itens-por-unidade": {
+      "get": {
+        "tags": [
+          "Item"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ItensPorSetorDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ItensPorSetorDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ItensPorSetorDto"
                 }
               }
             }
@@ -763,6 +792,32 @@
         },
         "additionalProperties": false
       },
+      "ItensPorSetorDto": {
+        "type": "object",
+        "properties": {
+          "id_setor": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "id_item": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nome_setor": {
+            "type": "string",
+            "nullable": true
+          },
+          "nome_item": {
+            "type": "string",
+            "nullable": true
+          },
+          "codigo_patrimonio": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "ListarSetorDto": {
         "type": "object",
         "properties": {
@@ -827,14 +882,14 @@
         },
         "additionalProperties": false
       },
-      "QTDItensPorUnidadeDto": {
+      "QTDItensPorSetorDto": {
         "type": "object",
         "properties": {
-          "id_unidade": {
+          "id_setor": {
             "type": "integer",
             "format": "int32"
           },
-          "nome_unidade": {
+          "nome_setor": {
             "type": "string",
             "nullable": true
           },

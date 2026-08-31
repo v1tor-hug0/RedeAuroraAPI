@@ -1,4 +1,5 @@
 ﻿using RedeAurora.Domains;
+using RedeAurora.DTOs.SetorDto;
 
 namespace RedeAurora.Interfaces
 {

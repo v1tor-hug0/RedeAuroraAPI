@@ -48,12 +48,26 @@ namespace RedeAurora.Controllers
         }
 
         [HttpGet("quantidade-por-unidade")]
-        public ActionResult<QTDItensPorUnidadeDto> QuantidadePorUnidade()
+        public ActionResult<QTDItensPorSetorDto> QuantidadePorUnidade()
         {
             try
             {
                 var resultado = _service.QuantidadePorUnidade();
 
+                return Ok(resultado);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpGet("Itens-por-unidade")]
+        public ActionResult<ItensPorSetorDto> ItensPorUnidade()
+        {
+            try
+            {
+                var resultado = _service.ItensPorSetor();
                 return Ok(resultado);
             }
             catch (Exception ex)

@@ -3,16 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|c:\\users\\43159446883\\desktop\\redeaurora\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|solutionrelative:controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|c:\\users\\43159446883\\desktop\\redeaurora\\repositories\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|solutionrelative:repositories\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|c:\\users\\43159446883\\desktop\\redeaurora\\interfaces\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|solutionrelative:interfaces\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|c:\\users\\43159446883\\desktop\\redeaurora\\applications\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|solutionrelative:applications\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|c:\\users\\43159446883\\desktop\\redeaurora\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|solutionrelative:controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|c:\\users\\43159446883\\desktop\\redeaurora\\dtos\\itemdto\\itensporsetordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|solutionrelative:dtos\\itemdto\\itensporsetordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|c:\\users\\43159446883\\desktop\\redeaurora\\contexts\\redeauroracontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|solutionrelative:contexts\\redeauroracontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|c:\\users\\43159446883\\desktop\\redeaurora\\dtos\\itemdto\\qtditensporsetordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|solutionrelative:dtos\\itemdto\\qtditensporsetordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|c:\\users\\43159446883\\desktop\\redeaurora\\repositories\\setorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|solutionrelative:repositories\\setorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|c:\\users\\43159446883\\desktop\\redeaurora\\interfaces\\isetorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|solutionrelative:interfaces\\isetorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|c:\\users\\43159446883\\desktop\\redeaurora\\applications\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|solutionrelative:applications\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|c:\\users\\43159446883\\desktop\\redeaurora\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|c:\\users\\43159446883\\desktop\\redeaurora\\applications\\services\\setorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|solutionrelative:applications\\services\\setorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|c:\\users\\43159446883\\desktop\\redeaurora\\applications\\services\\unidadeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|solutionrelative:applications\\services\\unidadeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|c:\\users\\43159446883\\desktop\\redeaurora\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|solutionrelative:controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|c:\\users\\43159446883\\desktop\\redeaurora\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,32 +67,8 @@
       "RelativeMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|solutionrelative:interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|c:\\users\\43159446883\\desktop\\redeaurora\\.env.example||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|solutionrelative:.env.example||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|c:\\users\\43159446883\\desktop\\redeaurora\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|solutionrelative:.env||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|c:\\users\\43159446883\\desktop\\redeaurora\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|solutionrelative:controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|c:\\users\\43159446883\\desktop\\redeaurora\\repositories\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|solutionrelative:repositories\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|c:\\users\\43159446883\\desktop\\redeaurora\\applications\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|solutionrelative:applications\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|c:\\users\\43159446883\\desktop\\redeaurora\\interfaces\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|solutionrelative:interfaces\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|c:\\users\\43159446883\\desktop\\redeaurora\\dtos\\itemdto\\qtditensporunidadedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|solutionrelative:dtos\\itemdto\\qtditensporunidadedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|c:\\users\\43159446883\\desktop\\redeaurora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -83,20 +103,12 @@
       "RelativeMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|solutionrelative:redeaurora.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|c:\\users\\43159446883\\desktop\\redeaurora\\contexts\\redeauroracontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|solutionrelative:contexts\\redeauroracontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|c:\\users\\43159446883\\desktop\\redeaurora\\dtos\\itemdto\\criaritemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|solutionrelative:dtos\\itemdto\\criaritemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|c:\\users\\43159446883\\desktop\\redeaurora\\dtos\\itemdto\\listaritemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|solutionrelative:dtos\\itemdto\\listaritemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|c:\\users\\43159446883\\desktop\\redeaurora\\applications\\services\\setorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|solutionrelative:applications\\services\\setorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -106,74 +118,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UnidadeService.cs",
-              "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Applications\\Services\\UnidadeService.cs",
-              "RelativeDocumentMoniker": "Applications\\Services\\UnidadeService.cs",
-              "ToolTip": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Applications\\Services\\UnidadeService.cs",
-              "RelativeToolTip": "Applications\\Services\\UnidadeService.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAkwEYAAAArAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Repositories\\ItemRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ItemRepository.cs",
+              "ToolTip": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Repositories\\ItemRepository.cs",
+              "RelativeToolTip": "Repositories\\ItemRepository.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowDAAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-14T13:27:25.151Z",
+              "WhenOpened": "2026-08-12T12:06:17.566Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Repositories\\UsuarioRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\UsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Repositories\\UsuarioRepository.cs",
-              "RelativeToolTip": "Repositories\\UsuarioRepository.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCQAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "ItensPorSetorDto.cs",
+              "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\DTOs\\ItemDto\\ItensPorSetorDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\ItemDto\\ItensPorSetorDto.cs",
+              "ToolTip": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\DTOs\\ItemDto\\ItensPorSetorDto.cs",
+              "RelativeToolTip": "DTOs\\ItemDto\\ItensPorSetorDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-14T13:27:00.875Z",
+              "WhenOpened": "2026-08-31T11:10:23.246Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": ".env.example",
-              "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\.env.example",
-              "RelativeDocumentMoniker": ".env.example",
-              "ToolTip": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\.env.example",
-              "RelativeToolTip": ".env.example",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-08-14T12:03:54.55Z",
+              "Title": "RedeAuroraContext.cs",
+              "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Contexts\\RedeAuroraContext.cs",
+              "RelativeDocumentMoniker": "Contexts\\RedeAuroraContext.cs",
+              "ToolTip": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Contexts\\RedeAuroraContext.cs",
+              "RelativeToolTip": "Contexts\\RedeAuroraContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T11:25:49.582Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAAAIMAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ItemService.cs",
+              "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Applications\\Services\\ItemService.cs",
+              "RelativeDocumentMoniker": "Applications\\Services\\ItemService.cs",
+              "ToolTip": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Applications\\Services\\ItemService.cs",
+              "RelativeToolTip": "Applications\\Services\\ItemService.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAqwGMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-10T12:13:29.364Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "GeradorTokenJwt.cs",
-              "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Applications\\Autenticacao\\GeradorTokenJwt.cs",
-              "RelativeDocumentMoniker": "Applications\\Autenticacao\\GeradorTokenJwt.cs",
-              "ToolTip": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Applications\\Autenticacao\\GeradorTokenJwt.cs",
-              "RelativeToolTip": "Applications\\Autenticacao\\GeradorTokenJwt.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwDcAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-12T13:15:28.497Z"
+              "WhenOpened": "2026-08-12T12:51:32.642Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "IItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Interfaces\\IItemRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IItemRepository.cs",
+              "ToolTip": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Interfaces\\IItemRepository.cs",
+              "RelativeToolTip": "Interfaces\\IItemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T11:22:17.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ItemController.cs",
+              "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Controllers\\ItemController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ItemController.cs",
+              "ToolTip": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Controllers\\ItemController.cs",
+              "RelativeToolTip": "Controllers\\ItemController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwEYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T13:18:27.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QTDItensPorSetorDto.cs",
+              "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\DTOs\\ItemDto\\QTDItensPorSetorDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\ItemDto\\QTDItensPorSetorDto.cs",
+              "ToolTip": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\DTOs\\ItemDto\\QTDItensPorSetorDto.cs",
+              "RelativeToolTip": "DTOs\\ItemDto\\QTDItensPorSetorDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T11:23:11.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SetorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Repositories\\SetorRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\SetorRepository.cs",
+              "ToolTip": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Repositories\\SetorRepository.cs",
+              "RelativeToolTip": "Repositories\\SetorRepository.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T11:14:08.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ISetorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Interfaces\\ISetorRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ISetorRepository.cs",
+              "ToolTip": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Interfaces\\ISetorRepository.cs",
+              "RelativeToolTip": "Interfaces\\ISetorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T11:08:05.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "UsuarioService.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Applications\\Services\\UsuarioService.cs",
               "RelativeDocumentMoniker": "Applications\\Services\\UsuarioService.cs",
@@ -186,44 +252,95 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-31T11:06:03.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SetorService.cs",
+              "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Applications\\Services\\SetorService.cs",
+              "RelativeDocumentMoniker": "Applications\\Services\\SetorService.cs",
+              "ToolTip": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Applications\\Services\\SetorService.cs",
+              "RelativeToolTip": "Applications\\Services\\SetorService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwE4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T13:13:56.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
               "ToolTip": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAowAwAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwAwAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-12T13:19:35.67Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IItemRepository.cs",
-              "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Interfaces\\IItemRepository.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IItemRepository.cs",
-              "ToolTip": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Interfaces\\IItemRepository.cs",
-              "RelativeToolTip": "Interfaces\\IItemRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAArAAAAAAAAAA==",
+              "DocumentIndex": 22,
+              "Title": "GeradorTokenJwt.cs",
+              "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Applications\\Autenticacao\\GeradorTokenJwt.cs",
+              "RelativeDocumentMoniker": "Applications\\Autenticacao\\GeradorTokenJwt.cs",
+              "ToolTip": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Applications\\Autenticacao\\GeradorTokenJwt.cs",
+              "RelativeToolTip": "Applications\\Autenticacao\\GeradorTokenJwt.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwDcAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-14T11:22:17.172Z"
+              "WhenOpened": "2026-08-12T13:15:28.497Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "QTDItensPorUnidadeDto.cs",
-              "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\DTOs\\ItemDto\\QTDItensPorUnidadeDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\ItemDto\\QTDItensPorUnidadeDto.cs",
-              "ToolTip": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\DTOs\\ItemDto\\QTDItensPorUnidadeDto.cs",
-              "RelativeToolTip": "DTOs\\ItemDto\\QTDItensPorUnidadeDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAAAIMAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-14T11:23:11.945Z"
+              "WhenOpened": "2026-08-10T12:13:29.364Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
+              "Title": "UnidadeService.cs",
+              "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Applications\\Services\\UnidadeService.cs",
+              "RelativeDocumentMoniker": "Applications\\Services\\UnidadeService.cs",
+              "ToolTip": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Applications\\Services\\UnidadeService.cs",
+              "RelativeToolTip": "Applications\\Services\\UnidadeService.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwEYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T13:27:25.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Repositories\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Repositories\\UsuarioRepository.cs",
+              "RelativeToolTip": "Repositories\\UsuarioRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T13:27:00.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "IUsuarioRepository.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Interfaces\\IUsuarioRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\IUsuarioRepository.cs",
@@ -231,12 +348,11 @@
               "RelativeToolTip": "Interfaces\\IUsuarioRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-13T11:27:25.452Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-13T11:27:25.452Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 16,
               "Title": ".env",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\.env",
               "RelativeDocumentMoniker": ".env",
@@ -248,43 +364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ItemRepository.cs",
-              "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Repositories\\ItemRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\ItemRepository.cs",
-              "ToolTip": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Repositories\\ItemRepository.cs",
-              "RelativeToolTip": "Repositories\\ItemRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-12T12:06:17.566Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ItemService.cs",
-              "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Applications\\Services\\ItemService.cs",
-              "RelativeDocumentMoniker": "Applications\\Services\\ItemService.cs",
-              "ToolTip": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Applications\\Services\\ItemService.cs",
-              "RelativeToolTip": "Applications\\Services\\ItemService.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAA9wFwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-12T12:51:32.642Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ItemController.cs",
-              "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Controllers\\ItemController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ItemController.cs",
-              "ToolTip": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Controllers\\ItemController.cs",
-              "RelativeToolTip": "Controllers\\ItemController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-12T13:18:27.263Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "ListarUsuarioDto.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\DTOs\\UsuarioDto\\ListarUsuarioDto.cs",
               "RelativeDocumentMoniker": "DTOs\\UsuarioDto\\ListarUsuarioDto.cs",
@@ -296,7 +376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "TokenDto.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\DTOs\\AutenticacaoDto\\TokenDto.cs",
               "RelativeDocumentMoniker": "DTOs\\AutenticacaoDto\\TokenDto.cs",
@@ -308,7 +388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "AutenticacaoController.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Controllers\\AutenticacaoController.cs",
               "RelativeDocumentMoniker": "Controllers\\AutenticacaoController.cs",
@@ -320,7 +400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "AutenticacaoService.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Applications\\Services\\AutenticacaoService.cs",
               "RelativeDocumentMoniker": "Applications\\Services\\AutenticacaoService.cs",
@@ -332,7 +412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "CriarUsuarioDto.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\DTOs\\UsuarioDto\\CriarUsuarioDto.cs",
               "RelativeDocumentMoniker": "DTOs\\UsuarioDto\\CriarUsuarioDto.cs",
@@ -344,19 +424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "RedeAuroraContext.cs",
-              "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Contexts\\RedeAuroraContext.cs",
-              "RelativeDocumentMoniker": "Contexts\\RedeAuroraContext.cs",
-              "ToolTip": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Contexts\\RedeAuroraContext.cs",
-              "RelativeToolTip": "Contexts\\RedeAuroraContext.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-13T11:25:49.582Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "RedeAurora.csproj",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\RedeAurora.csproj",
               "RelativeDocumentMoniker": "RedeAurora.csproj",
@@ -368,7 +436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "CriarItemDto.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\DTOs\\ItemDto\\CriarItemDto.cs",
               "RelativeDocumentMoniker": "DTOs\\ItemDto\\CriarItemDto.cs",
@@ -380,7 +448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "ListarItemDto.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\DTOs\\ItemDto\\ListarItemDto.cs",
               "RelativeDocumentMoniker": "DTOs\\ItemDto\\ListarItemDto.cs",
@@ -389,18 +457,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-12T13:26:12.725Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "SetorService.cs",
-              "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Applications\\Services\\SetorService.cs",
-              "RelativeDocumentMoniker": "Applications\\Services\\SetorService.cs",
-              "ToolTip": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Applications\\Services\\SetorService.cs",
-              "RelativeToolTip": "Applications\\Services\\SetorService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAE4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-10T13:13:56.87Z"
             }
           ]
         }
