@@ -102,17 +102,11 @@
   {
     "ContainingType": "RedeAurora.Controllers.ItemController",
     "Method": "QuantidadePorUnidade",
-    "RelativePath": "api/Item/Quantidade-por-Setor{id}",
+    "RelativePath": "api/Item/Quantidade-por-Setor",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": [
       {
         "Type": "RedeAurora.DTOs.ItemDto.QTDItensPorSetorDto",

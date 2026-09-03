@@ -26,9 +26,25 @@ namespace RedeAurora.Repositories
             _context.SaveChanges();
         }
 
-        public List<ItemInventario> Listar()
+        public List<ListarItemDto> Listar()
         {
-            return _context.ItemInventario.OrderBy(i => i.id_item).ToList();
+            return (
+                from item in _context.ItemInventario
+                join usuario in _context.Usuario
+                    on item.id_usuario equals usuario.id_usuario
+                select new ListarItemDto
+                {
+                    id_item = item.id_item,
+                    nome = item.nome,
+                    codigo_patrimonio = item.codigo_patrimonio,
+                    descricao = item.descricao,
+                    id_setor = item.id_setor,
+                    condicao = item.condicao,
+                    data = item.data_hora,
+                    id_usuario = item.id_usuario ?? Guid.Empty,
+                    nome_usuario = usuario.nome
+                }
+            ).ToList();
         }
 
         public ItemInventario ListarPorID(int id)

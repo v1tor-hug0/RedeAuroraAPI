@@ -120,21 +120,10 @@
         }
       }
     },
-    "/api/Item/Quantidade-por-Setor{id}": {
+    "/api/Item/Quantidade-por-Setor": {
       "get": {
         "tags": [
           "Item"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
         ],
         "responses": {
           "200": {

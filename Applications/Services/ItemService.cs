@@ -29,14 +29,13 @@ namespace RedeAurora.Applications.Services
                 id_setor = item.id_setor,
                 condicao = item.condicao,
                 data = item.data_hora,
-                id_usuario = item.id_usuario ?? Guid.Empty
+                id_usuario = item.id_usuario ?? Guid.Empty,
             };
         }
 
         public List<ListarItemDto> Listar()
         {
-            List<ItemInventario> itens = _repository.Listar();
-            return itens.Select(lerDto).ToList();
+            return _repository.Listar();
         }
 
         public ListarItemDto ListarPorID(int id)
