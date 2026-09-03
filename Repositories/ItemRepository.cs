@@ -36,9 +36,9 @@ namespace RedeAurora.Repositories
             return _context.ItemInventario.Find(id);
         }
 
-        public List<QTDItensPorSetorDto> QuantidadePorUnidade(int id)
+        public List<QTDItensPorSetorDto> QuantidadePorSetor()
         {
-            return _context.Setor.Where(setor => setor.id_setor == id).Select(setor => new QTDItensPorSetorDto
+            return _context.Setor.Select(setor => new QTDItensPorSetorDto
                 {
                     id_setor = setor.id_setor,
                     nome_setor = setor.nome,

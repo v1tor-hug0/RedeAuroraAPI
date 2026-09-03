@@ -10,6 +10,7 @@
         public string condicao { get; set; }
         public DateTime? data { get; set; }
         public Guid id_usuario { get; set; }
+        public string nome_usuario { get; set; } = string.Empty;
 
     }
 }

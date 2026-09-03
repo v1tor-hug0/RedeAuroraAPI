@@ -9,7 +9,7 @@ namespace RedeAurora.Interfaces
         public ItemInventario ListarPorID(int id);
         public void Adicionar(ItemInventario item);
         public void Deletar (ItemInventario item);
-        public List<QTDItensPorSetorDto> QuantidadePorUnidade(int id);
+        public List<QTDItensPorSetorDto> QuantidadePorSetor();
         public List<ItensPorSetorDto> ItensPorSetor(int id);
     }
 }
