@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|c:\\users\\43159446883\\desktop\\redeaurora\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|c:\\users\\43159446883\\desktop\\redeaurora\\applications\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|solutionrelative:applications\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -126,11 +130,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-09-03T13:34:46.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "SetorService.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Applications\\Services\\SetorService.cs",
               "RelativeDocumentMoniker": "Applications\\Services\\SetorService.cs",
@@ -142,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ItemRepository.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Repositories\\ItemRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\ItemRepository.cs",
@@ -150,12 +167,11 @@
               "RelativeToolTip": "Repositories\\ItemRepository.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-12T12:06:17.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-12T12:06:17.566Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ItemService.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Applications\\Services\\ItemService.cs",
               "RelativeDocumentMoniker": "Applications\\Services\\ItemService.cs",
@@ -168,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "SetorRepository.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Repositories\\SetorRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\SetorRepository.cs",
@@ -180,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IItemRepository.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Interfaces\\IItemRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\IItemRepository.cs",
@@ -188,12 +204,11 @@
               "RelativeToolTip": "Interfaces\\IItemRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-14T11:22:17.172Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-14T11:22:17.172Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ItemController.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Controllers\\ItemController.cs",
               "RelativeDocumentMoniker": "Controllers\\ItemController.cs",
@@ -205,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ListarItemDto.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\DTOs\\ItemDto\\ListarItemDto.cs",
               "RelativeDocumentMoniker": "DTOs\\ItemDto\\ListarItemDto.cs",
@@ -217,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "AutenticacaoService.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Applications\\Services\\AutenticacaoService.cs",
               "RelativeDocumentMoniker": "Applications\\Services\\AutenticacaoService.cs",
@@ -229,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "UsuarioService.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Applications\\Services\\UsuarioService.cs",
               "RelativeDocumentMoniker": "Applications\\Services\\UsuarioService.cs",
@@ -241,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "UsuarioRepository.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Repositories\\UsuarioRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\UsuarioRepository.cs",
@@ -253,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "UnidadeRepository.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Repositories\\UnidadeRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\UnidadeRepository.cs",
@@ -265,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "IUsuarioRepository.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Interfaces\\IUsuarioRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\IUsuarioRepository.cs",
@@ -277,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "IUnidadeRepository.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Interfaces\\IUnidadeRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\IUnidadeRepository.cs",
@@ -289,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "UnidadeService.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Applications\\Services\\UnidadeService.cs",
               "RelativeDocumentMoniker": "Applications\\Services\\UnidadeService.cs",
@@ -301,7 +316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "AutenticacaoController.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Controllers\\AutenticacaoController.cs",
               "RelativeDocumentMoniker": "Controllers\\AutenticacaoController.cs",
@@ -313,7 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "ISetorRepository.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Interfaces\\ISetorRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\ISetorRepository.cs",
@@ -325,7 +340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "QTDItensPorSetorDto.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\DTOs\\ItemDto\\QTDItensPorSetorDto.cs",
               "RelativeDocumentMoniker": "DTOs\\ItemDto\\QTDItensPorSetorDto.cs",
@@ -337,7 +352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "RedeAuroraContext.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Contexts\\RedeAuroraContext.cs",
               "RelativeDocumentMoniker": "Contexts\\RedeAuroraContext.cs",
@@ -349,7 +364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "ItensPorSetorDto.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\DTOs\\ItemDto\\ItensPorSetorDto.cs",
               "RelativeDocumentMoniker": "DTOs\\ItemDto\\ItensPorSetorDto.cs",
@@ -361,7 +376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -373,7 +388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
@@ -385,7 +400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "GeradorTokenJwt.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Applications\\Autenticacao\\GeradorTokenJwt.cs",
               "RelativeDocumentMoniker": "Applications\\Autenticacao\\GeradorTokenJwt.cs",
@@ -397,7 +412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -409,7 +424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": ".env",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\.env",
               "RelativeDocumentMoniker": ".env",
@@ -421,7 +436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "ListarUsuarioDto.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\DTOs\\UsuarioDto\\ListarUsuarioDto.cs",
               "RelativeDocumentMoniker": "DTOs\\UsuarioDto\\ListarUsuarioDto.cs",
@@ -433,7 +448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "TokenDto.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\DTOs\\AutenticacaoDto\\TokenDto.cs",
               "RelativeDocumentMoniker": "DTOs\\AutenticacaoDto\\TokenDto.cs",
@@ -445,7 +460,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "CriarUsuarioDto.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\DTOs\\UsuarioDto\\CriarUsuarioDto.cs",
               "RelativeDocumentMoniker": "DTOs\\UsuarioDto\\CriarUsuarioDto.cs",
@@ -457,7 +472,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "RedeAurora.csproj",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\RedeAurora.csproj",
               "RelativeDocumentMoniker": "RedeAurora.csproj",
@@ -469,7 +484,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "CriarItemDto.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\DTOs\\ItemDto\\CriarItemDto.cs",
               "RelativeDocumentMoniker": "DTOs\\ItemDto\\CriarItemDto.cs",
