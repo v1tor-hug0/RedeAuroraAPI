@@ -1,9 +1,10 @@
-﻿using RedeAurora.Domains;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
+using RedeAurora.Domains;
 using RedeAurora.DTOs.ItemDto;
+using RedeAurora.Exceptions;
 using RedeAurora.Interfaces;
 using System.Security.Claims;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Authorization;
 
 namespace RedeAurora.Applications.Services
 {
@@ -40,12 +41,14 @@ namespace RedeAurora.Applications.Services
 
         public ListarItemDto ListarPorID(int id)
         {
-            ItemInventario? item = _repository.ListarPorID(id);
+            var item = _repository.ListarPorID(id);
+
             if (item == null)
             {
-                throw new Exception("Item não encontrado.");
+                throw new DomainException("Item não encontrado.");
             }
-            return lerDto(item);
+
+            return item;
         }
 
         public ListarItemDto Adicionar(CriarItemDto itemDto)
@@ -80,12 +83,7 @@ namespace RedeAurora.Applications.Services
 
         public void Deletar(int id)
         {
-            ItemInventario? item = _repository.ListarPorID(id);
-            if (item == null)
-            {
-                throw new Exception("Item não encontrado.");
-            }
-            _repository.Deletar(item);
+            _repository.Deletar(id);
         }
 
         public List<QTDItensPorSetorDto> QuantidadePorSetor()

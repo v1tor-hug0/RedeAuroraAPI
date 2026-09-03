@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|solutionrelative:applications\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|c:\\users\\43159446883\\desktop\\redeaurora\\interfaces\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|solutionrelative:interfaces\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|c:\\users\\43159446883\\desktop\\redeaurora\\repositories\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|solutionrelative:repositories\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|c:\\users\\43159446883\\desktop\\redeaurora\\interfaces\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|solutionrelative:interfaces\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C99C7E17-FC90-CFD8-564E-817F78A51069}|RedeAurora.csproj|c:\\users\\43159446883\\desktop\\redeaurora\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -142,13 +142,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ItemRepository.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Repositories\\ItemRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\ItemRepository.cs",
               "ToolTip": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Repositories\\ItemRepository.cs",
               "RelativeToolTip": "Repositories\\ItemRepository.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwCMAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-12T12:06:17.566Z",
               "EditorCaption": ""
@@ -161,7 +161,7 @@
               "RelativeDocumentMoniker": "Applications\\Services\\ItemService.cs",
               "ToolTip": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Applications\\Services\\ItemService.cs",
               "RelativeToolTip": "Applications\\Services\\ItemService.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAzwCUAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-12T12:51:32.642Z",
               "EditorCaption": ""
@@ -180,13 +180,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "IItemRepository.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Interfaces\\IItemRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\IItemRepository.cs",
               "ToolTip": "C:\\Users\\43159446883\\Desktop\\RedeAurora\\Interfaces\\IItemRepository.cs",
               "RelativeToolTip": "Interfaces\\IItemRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-14T11:22:17.172Z",
               "EditorCaption": ""

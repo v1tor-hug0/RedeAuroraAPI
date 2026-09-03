@@ -20,9 +20,14 @@ namespace RedeAurora.Repositories
             _context.SaveChanges();
         }
 
-        public void Deletar(ItemInventario item)
+        public void Deletar(int id)
         {
-            _context.Remove(item);
+            var item = _context.ItemInventario.Find(id);
+
+            if (item == null)
+                return;
+
+            _context.ItemInventario.Remove(item);
             _context.SaveChanges();
         }
 
@@ -47,10 +52,28 @@ namespace RedeAurora.Repositories
             ).ToList();
         }
 
-        public ItemInventario ListarPorID(int id)
+        public ListarItemDto? ListarPorID(int id)
         {
-            return _context.ItemInventario.Find(id);
+            return (
+                from item in _context.ItemInventario
+                join usuario in _context.Usuario
+                    on item.id_usuario equals usuario.id_usuario
+                where item.id_item == id
+                select new ListarItemDto
+                {
+                    id_item = item.id_item,
+                    nome = item.nome,
+                    codigo_patrimonio = item.codigo_patrimonio,
+                    descricao = item.descricao,
+                    id_setor = item.id_setor,
+                    condicao = item.condicao,
+                    data = item.data_hora,
+                    id_usuario = item.id_usuario ?? Guid.Empty,
+                    nome_usuario = usuario.nome
+                }
+            ).FirstOrDefault();
         }
+        
 
         public List<QTDItensPorSetorDto> QuantidadePorSetor()
         {
